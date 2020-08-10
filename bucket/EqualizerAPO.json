@@ -1,0 +1,45 @@
+{
+    "version": "1.2.1",
+    "description": "A system-wide equalizer for Windows 7 / 8 / 8.1 / 10 ",
+    "homepage": "https://sourceforge.net/projects/equalizerapo",
+    "license": "GPL-2.0-only",
+    "architecture": {
+        "64bit": {
+            "url": "https://downloads.sourceforge.net/project/equalizerapo/1.2.1/EqualizerAPO64-1.2.1.exe",
+            "hash": "sha1:e4c0c0cc5a489a04bd3ecd75d34c42166f8f9b00"
+        },
+        "32bit": {
+            "url": "https://downloads.sourceforge.net/project/equalizerapo/1.2.1/EqualizerAPO32-1.2.1.exe",
+            "hash": "sha1:b03028116f14214a63ccd7574b09b32db4026b1a"
+        }
+    },
+    "innosetup": true,
+    "bin": [
+        "Configurator.exe",
+        "Editor.exe"
+    ],
+    "shortcuts": [
+        [
+            "Configurator.exe",
+            "EqualizerAPOConfigurator"
+        ],
+        [
+            "Editor.exe",
+            "EqualizerAPO"
+        ]
+    ],
+    "checkver": {
+        "url": "https://downloads.sourceforge.net/project/equalizerapo/Readme.txt",
+        "regex": "Version ([\\d.]+)"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://downloads.sourceforge.net/project/equalizerapo/1.2.1/EqualizerAPO64-$version.exe"
+            },
+            "32bit": {
+                "url": "https://downloads.sourceforge.net/project/equalizerapo/1.2.1/EqualizerAPO32-$version.exe"
+            }
+        }
+    }
+}
