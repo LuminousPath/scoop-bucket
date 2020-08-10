@@ -22,8 +22,8 @@
         "args": "/S"
     },
     "bin": [
-        "C:\\Program Files\\EqualizerAPO\\Configurator.exe\\Configurator.exe",
-        "C:\\Program Files\\EqualizerAPO\\Configurator.exe\\Editor.exe"
+        "C:\\Program Files\\EqualizerAPO\\Configurator.exe",
+        "C:\\Program Files\\EqualizerAPO\\Editor.exe"
     ],
     "shortcuts": [
         [
