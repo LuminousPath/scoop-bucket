@@ -13,7 +13,12 @@
             "hash": "sha1:b03028116f14214a63ccd7574b09b32db4026b1a"
         }
     },
-    "innosetup": true,
+    "installer": {
+        "args": "/S"
+    },
+    "uninstaller": {
+        "Uninstall.exe"
+    },
     "bin": [
         "Configurator.exe",
         "Editor.exe"
