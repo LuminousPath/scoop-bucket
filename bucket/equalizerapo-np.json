@@ -14,10 +14,14 @@
         }
     },
     "installer": {
-        "args": "/S"
+        "args": [
+                    "/S",
+                    "/D=$dir"
+                ]
     },
     "uninstaller": {
-        "file": "Uninstall.exe"
+        "file": "Uninstall.exe",
+        "args": "/S"
     },
     "bin": [
         "Configurator.exe",
