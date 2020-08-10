@@ -18,20 +18,20 @@
     },
     "post_install": "Remove-Item -Recurse \"$([Environment]::GetFolderPath('startmenu'))\\Programs\\Equalizer APO $version\"",
     "uninstaller": {
-        "file": "C:\Program Files\EqualizerAPO\Uninstall.exe",
+        "file": "C:\\Program Files\\EqualizerAPO\\Uninstall.exe",
         "args": "/S"
     },
     "bin": [
-        "C:\Program Files\EqualizerAPO\Configurator.exe\Configurator.exe",
-        "C:\Program Files\EqualizerAPO\Configurator.exe\Editor.exe"
+        "C:\\Program Files\\EqualizerAPO\\Configurator.exe\\Configurator.exe",
+        "C:\\Program Files\\EqualizerAPO\\Configurator.exe\\Editor.exe"
     ],
     "shortcuts": [
         [
-            "C:\Program Files\EqualizerAPO\Configurator.exe",
+            "C:\\Program Files\\EqualizerAPO\\Configurator.exe",
             "EqualizerAPOConfigurator"
         ],
         [
-            "C:\Program Files\EqualizerAPO\Editor.exe",
+            "C:\\Program Files\\EqualizerAPO\\Editor.exe",
             "EqualizerAPO"
         ]
     ],
