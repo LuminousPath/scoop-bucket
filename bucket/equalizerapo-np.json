@@ -16,6 +16,7 @@
     "installer": {
         "args": "/S"
     },
+    "notes": "You may need to restart your computer to be sure the sound card integration is fully installed.",
     "post_install": "Remove-Item -Recurse \"$([Environment]::GetFolderPath('startmenu'))\\Programs\\Equalizer APO $version\"",
     "uninstaller": {
         "file": "C:\\Program Files\\EqualizerAPO\\Uninstall.exe",
