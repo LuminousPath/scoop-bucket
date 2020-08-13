@@ -1,0 +1,15 @@
+{
+    "homepage": "https://cdsoft.fr/pp",
+    "description": "A generic Preprocessor (with Pandoc in mind)",
+    "version": "2.14.1",
+    "license": "GPL-3.0-only",
+    "url": "http://cdelord.fr/pp/pp-win.7z",
+    "hash": "f8ec04d5a632add9e2f7de6d2236fe0100763317e9486cbb1bdf2a1da7e76ebf",
+    "bin": "pp.exe",
+    "checkver": {
+        "github": "https://github.com/CDSoft/pp"
+    },
+    "autoupdate": {
+        "url": "http://cdelord.fr/pp/pp-win.7z"
+    }
+}
