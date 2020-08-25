@@ -18,12 +18,13 @@
     },
     "post_install": [
         "Remove-Item \"$([Environment]::GetFolderPath('startmenu'))\\Programs\\Microsoft Teams.lnk\"",
-        "Remove-Item \"([Environment]::GetFolderPath('startmenu'))\\Microsoft Teams.lnk\""
+        "Remove-Item \"$([Environment]::GetFolderPath('startmenu'))\\Microsoft Teams.lnk\""
     ],
     "shortcuts": [
         [
-            "%LocalAppData%\\Microsoft\\Teams\\Update.exe --processStart \"Teams.exe\"",
-            "Microsoft Teams"
+            "%LocalAppData%\\Microsoft\\Teams\\Update.exe",
+            "Microsoft Teams",
+            "--processStart \"Teams.exe\""
         ]
     ],
     "uninstaller": {
