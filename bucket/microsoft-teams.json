@@ -20,7 +20,6 @@
         "script": [
             "& \"$Env:LocalAppData/Microsoft/Teams/Update.exe\" --uninstall | Out-Null",
             "rm -r -fo $Env:LocalAppData/Microsoft/Teams",
-            "rm -r -fo $Env:LocalAppData/Microsoft/TeamsMeetingAddin",
             "rm -r -fo $Env:LocalAppData/Microsoft/TeamsPresenceAddin",
             "rm -fo $Env:LocalAppData/SquirrelTemp/setup.json",
             "rm -r -fo $Env:AppData/Microsoft/Teams",
