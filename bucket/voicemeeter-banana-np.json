@@ -5,6 +5,9 @@
     "version": "2.0.5.3",
     "url": "https://download.vb-audio.com/Download_CABLE/VoicemeeterProSetup.exe",
     "hash": "13205b703f4f95c58fbc4db957e0f3ee32d1fb637b9c77433c418141d97eb338",
+    "installer": {
+        "args": "-s"
+    },
     "checkver": "Voicemeeter ([\\d\\.]+) \\(EXE file\\)",
     "autoupdate": {
         "url": "https://download.vb-audio.com/Download_CABLE/VoicemeeterProSetup.exe"
