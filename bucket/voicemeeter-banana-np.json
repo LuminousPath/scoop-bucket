@@ -1,0 +1,12 @@
+{
+    "homepage": "https://vb-audio.com/Voicemeeter/banana.htm",
+    "description": "Voicemeeter Banana is an Advanced Audio Mixer Application endowed with Virtual Audio Device used as Virtual I/O to mix and manage any audio sources from or to any audio devices or applications.",
+    "license": "https://vb-audio.com/Services/licensing.htm",
+    "version": "2.0.5.3",
+    "url": "https://download.vb-audio.com/Download_CABLE/VoicemeeterProSetup.exe",
+    "hash": "13205b703f4f95c58fbc4db957e0f3ee32d1fb637b9c77433c418141d97eb338",
+    "checkver": "Voicemeeter ([\\d\\.]+) \\(EXE file\\)",
+    "autoupdate": {
+        "url": "https://download.vb-audio.com/Download_CABLE/VoicemeeterProSetup.exe"
+    }
+}
