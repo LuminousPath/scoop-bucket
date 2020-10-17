@@ -37,7 +37,7 @@
         ]
     ],
     "checkver": {
-        "url": "https://downloads.sourceforge.net/project/equalizerapo/Readme.txt",
+        "url": "https://sourceforge.net/projects/equalizerapo/files/",
         "regex": "Version ([\\d.]+)"
     },
     "autoupdate": {
