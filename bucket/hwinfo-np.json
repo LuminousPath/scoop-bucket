@@ -21,6 +21,14 @@
             "/NORESTARTAPPLICATIONS"
         ] 
     },
+    "uninstaller": {
+        "file": "unins000.exe",
+        "args": [
+            "/VERYSILENT",
+            "/SUPPRESSMSGBOXES",
+            "/NORESTART"
+        ]
+    },
     "architecture": {
         "64bit": {
             "bin": [
