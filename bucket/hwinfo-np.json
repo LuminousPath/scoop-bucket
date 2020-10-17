@@ -3,13 +3,16 @@
     "description": "Comprehensive Hardware Analysis, Monitoring and Reporting for Windows and DOS",
     "homepage": "https://www.hwinfo.com",
     "license": "Freeware",
-    "url": "https://www.hwinfo.com/files/hwi_632.exe",
+    "url": "https://www.hwinfo.com/files/hwi_632.exe#/dl.exe",
     "hash": "df09d19d94406eca05b266d89ea7a3384c99ae5afb75a361ea518991a8ea18d0",
     "pre_install": [
         "'64' | ForEach-Object {",
         "    if (-not (Test-Path \"$persist_dir\\HWiNFO$_.INI\")) { Set-Content \"$dir\\HWiNFO$_.INI\" '[Settings]', 'AutoUpdate=0' -Encoding Ascii}",
         "}"
     ],
+    "installer": {
+        "file": "dl.exe"
+    },
     "architecture": {
         "64bit": {
             "bin": [
@@ -51,6 +54,6 @@
         "regex": "([\\d-.]+)"
     },
     "autoupdate": {
-        "url": "https://www.hwinfo.com/files/hwi_$majorVersion$minorVersion.exe"
+        "url": "https://www.hwinfo.com/files/hwi_$majorVersion$minorVersion.exe#/dl.exe"
     }
 }
