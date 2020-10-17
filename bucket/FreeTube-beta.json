@@ -6,7 +6,7 @@
     "url": "https://github.com/FreeTubeApp/FreeTube/releases/download/v0.9.0-beta/FreeTube-0.9.0-win-x64-portable.zip",
     "hash": "091c846a27367da4dc122325e8c1c29413c662f1fe3a757c769602077ec08738",
     "installer": {
-        "script": "Expand-7zipArchive -Overwrite Skip \"$dir\\$fname\" -Removal"
+        "script": "Expand-7zipArchive -Overwrite Skip \"$dir\\freetube-0.9.0-win.zip\" -Removal"
     },
     "bin": "FreeTube.exe",
     "shortcuts": [
