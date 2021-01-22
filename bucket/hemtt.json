@@ -1,0 +1,13 @@
+{
+    "homepage": "https://github.com/BrettMayson/HEMTT",
+    "description": "Build System for Arma 3 powered by armake2 for Linux and Windows - Heavy Expanded Mobility Tactical Truck for Arma 3 mods. HEMTT focuses on CBA and ACE3 standards while providing project configurability and additional utilities.",
+    "license": "GPL-3.0-only",
+    "version": "0.7.6",
+    "url": "https://github.com/BrettMayson/HEMTT/releases/download/v0.7.6/hemtt-v0.7.6-x86_64-pc-windows-msvc.zip",
+    "hash": "6d3e86fd4a3a19a2d65f6494eda2199e15e772241fb9561f6f614a0f767ce64b",
+    "bin": "hemtt.exe",
+    "checkver": "github",
+    "autoupdate": {
+        "url": "https://github.com/BrettMayson/HEMTT/releases/download/v$version/hemtt-v$version-x86_64-pc-windows-msvc.zip"
+    }
+}
