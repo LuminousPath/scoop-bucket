@@ -1,0 +1,9 @@
+{
+    "homepage": "https://mikero.bytex.digital/",
+    "description": "Arma 3 Utility. De Warp is a simple application that analyses the content of any warp file (binarised or otherwise) from the very first cwc demo thru to Vbs2lite and does a few consistency checks.",
+    "license": "Copyright Mikero",
+    "version": "1.0.0",
+    "url": "https://www.dropbox.com/s/zs5iforxoflasdt/dewrp_alive.zip?dl=1",
+    "hash": "0063C234BA73CBBF7B2584C8C0DCA1A705DB6DA50B1DB2D6694F6CDFA5D5E877",
+    "bin": "DeWrp.exe"
+}
