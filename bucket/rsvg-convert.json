@@ -8,7 +8,7 @@
     "bin": "rsvg-convert.exe",
     "checkver": {
         "url": "https://sourceforge.net/p/tumagcc/activity/feed",
-        "regex": "The Moluccas released \/rsvg-convert-([\\d\\.]+)\\.7z"
+        "regex": "The Moluccas released /rsvg-convert-([\\d\\.]+)\\.7z"
     },
     "autoupdate": {
         "url": "https://downloads.sourceforge.net/project/tumagcc/rsvg-convert-$version.7z"
