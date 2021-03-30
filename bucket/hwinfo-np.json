@@ -1,10 +1,10 @@
 {
-    "version": "6.40-4330",
+    "version": "7.00-4400",
     "description": "Comprehensive Hardware Analysis, Monitoring and Reporting for Windows and DOS",
     "homepage": "https://www.hwinfo.com",
     "license": "Freeware",
-    "url": "https://www.hwinfo.com/files/hwi_640.exe#/dl.exe",
-    "hash": "2de6e2c5b320636cfc2f3b5a9a832cfe11715f373982bed8a68638dc3717403a",
+    "url": "https://www.hwinfo.com/files/hwi_700.exe#/dl.exe",
+    "hash": "c42c2a82438dc7f543228367db956801e0e6d2534585d9685c4d4bb5a40ffda1",
     "pre_install": [
         "'64' | ForEach-Object {",
         "    if (-not (Test-Path \"$persist_dir\\HWiNFO$_.INI\")) { Set-Content \"$dir\\HWiNFO$_.INI\" '[Settings]', 'AutoUpdate=0' -Encoding Ascii}",
